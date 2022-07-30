@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: #f80034;
+}
+
+div {
+    text-align: center;
+    background-color: #fff;
+    padding: 100px solid #f80034;
+    border: 50px solid #fff;
+    border-radius: 30px;
+    margin: 50px;
+    width: 500px;
+    min-height: 600px;
+}
+
+h1, p {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 20px;
+    text-align: center;
+    color: #666;
+    font-family: sans-serif;
+}
+
