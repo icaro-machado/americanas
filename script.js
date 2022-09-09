@@ -1,3 +1,3 @@
-function teste() {
+function acessar() {
     console.log("oi");
 }

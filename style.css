@@ -35,7 +35,7 @@ a {
     font-size: 16px;
 }
 
-p {
+p, li {
     text-align: center;
     color: #666;
     font-family: sans-serif;
@@ -70,7 +70,7 @@ label {
     padding: 5px;
 }
 
-#campo_email, #campo_senha {
+#campo_email, #campo_senha, #campo_nome, #campo_telefone {
     width: 250px;
     height: 25px;
 }

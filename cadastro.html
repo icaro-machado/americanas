@@ -12,26 +12,25 @@
     <div>
         <img id="logo" src="fundo.jpg" alt="" width="auto" height="200px">
         
-        <h1>Login do Cliente</h1>
-
-        <p>Veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</p>
+        <h1>Insira seus dados</h1>
 
         <form action="" method="post">
+            
+            <label>Nome:</label>
+            <input id="campo_nome" type="text" name="nome"><br><br>
+
+            <label>Telefone:</label>
+            <input id="campo_telefone" type="tel" name="telefone"><br><br>
+
             <label>E-mail:</label>
             <input id="campo_email" placeholder="Ex. joaodasilva@hotmail.com" type="email" name="email"><br><br>
 
             <label>Senha na Americanas:</label>
             <input id="campo_senha" type="password" name="senha"><br><br>
 
-            <input id="botao" type="submit" value="Continuar" onclick="acessar()"/><br><br>
+            <input id="botao" type="submit" value="Finalizar Cadastro" onclick="teste()"/><br><br>
         </form>
         <br>
-
-        <label>Não tem cadastro?</label>
-        <a href="cadastro.html">Cadastre-se</a><br><br>
-
-        <label>Ao continuar com o acesso,<br>você concorda com a nossa</label>
-        <a href="politica.html" target="_blank">Política de Privacidade</a>
     </div>
 </body>
 </html>
