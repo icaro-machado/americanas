@@ -1,4 +1,3 @@
-
 function acessar() {
     var emailCompleto = document.getElementById("campo_email").value;
     var inicioEmail = emailCompleto.split("@")[0];
