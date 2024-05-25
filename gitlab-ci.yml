@@ -1,6 +1,7 @@
 stages
 	    - build
 	    - test
+     	    - sonarqube-check
 		- deploy
 
 build:
@@ -12,6 +13,11 @@ test:
   stage: test
   script:
 	- echo "Run your tests here."
+
+sonarqube-check:
+  stage: sonarqube-check
+  script:
+	- echo "Run Sonar Check here."
 
 deploy:
   stage: deploy
