@@ -1,6 +1,5 @@
 stages
     - build
-    - job1
     - test
         - deploy
 
@@ -8,10 +7,6 @@ build:
   stage: build
   script:
 	- echo "Check node version and build your binary or docker image."
-
-job1:
-  script: rspec
-  coverage: '/Code coverage: /^\s*Lines:\s*\d+.\d+\%/'
 
 test:
   stage: test
