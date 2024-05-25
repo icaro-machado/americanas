@@ -1,0 +1,19 @@
+stages
+	    - build
+	    - test
+		- deploy
+
+build:
+  stage: build
+  script:
+	- echo "Check node version and build your binary or docker image."
+
+test:
+  stage: test
+  script:
+	- echo "Run your tests here."
+
+deploy:
+  stage: deploy
+  script:
+	- echo "Deploy your code ":
